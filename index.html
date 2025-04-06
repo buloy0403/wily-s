@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wily's Ice Cream - Spreading Happiness Through Healthy Desserts</title>
+        
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    
+        <link rel="stylesheet" href="style.css"> 
+    
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container">
+                <a class="navbar-brand name">Wily's Ice Cream 🍦</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="icecream.html">Ice Cream</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FAQS.html">FAQs</a></li>
+                  </ul>
+          
+                  
+                  <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+        </header>
+
+        <section id="Home"
+        class="container-fluid py-5 mt-3 parallax d-flex justify-content-center align-items-center text-center"
+        style="height: 100vh;">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1 class="fw-bold text-white">Welcome to Wily's Ice Cream 🍦</h1>
+                <p class="quote text-white">"You can't buy happiness, but you can buy ice cream, and that's pretty much
+                    the same thing!"</p>
+
+                <a href="buynow.html" class="btn btn-primary">
+                    Buy Now! <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+            </div>
+        </div>
+    </section> 
+    <section id="about" class="container-fluid py-5 mt-3 text-center">
+        <h1 class="fw-bold py-5 text-center">About Us!</h1>
+        <h2 class="fw-bold text-brown text-center">Spreading Happiness Through Healthy Desserts</h2>
+
+        <p class="text-center">
+            Say hello to <strong>Wily’s Ice Cream</strong>: bringing healthy, low-calorie ice creams and mithais with
+            zero
+            added sugar to the millennial Indian with an incurable sweet tooth. It’s a good-for-you dessert that you can
+            binge
+            on, guilt-free... and not just on cheat days.
+        </p>
+
+        <p class="text-center">
+            <strong>Wily’s Ice Cream</strong> was born to revolutionize the way people consume sweets. It’s a common
+            myth
+            that if it’s easy on the calories, it’s not going to satiate those taste buds - we aim to disrupt this
+            misconception <strong>ONE DESSERT AT A TIME!</strong>
+        </p>
+
+        <div class="text-center">
+            <a href="about.html" class="btn btn-primary px-5 py-2 mt-4">
+                Read More... <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+        </div>
+
+        <section id="ice-cream" class="container-fluid py-5 mt-3">
+
+
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                <h1 class="text-center fw-bold text-black">Our Ice Cream Flavors</h1>
+        
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+        
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="ice cream.jpg" class="d-block w-100 carousel-img" alt="Classic Flavors">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="h2 text-white">Classic Flavors</h2>
+                            <a href="classic.html">
+                                <button class="btn btn-primary">VIEW ALL <ion-icon name="arrow-forward-outline"></ion-icon></button>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Fruit-Based Flavors ice cream.jpg" class="d-block w-100 carousel-img" alt="Fruit-Based Flavors">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="h2 text-white">Fruit-Based Flavors</h2>
+                            <a href="fruitbased.html">
+                                <button class="btn btn-primary">VIEW ALL <ion-icon name="arrow-forward-outline"></ion-icon></button>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="popsikel.jpg" class="d-block w-100 carousel-img" alt="Popsicle Ice Cream">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="h2 text-white">Popsicle Ice Cream</h2>
+                            <a href="popsikel.html">
+                                <button class="btn btn-primary">VIEW ALL <ion-icon name="arrow-forward-outline"></ion-icon></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+        
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        </section>
+        <section class="card-stories ">
+            <div class="container-fluid  py-5 mt-3">
+                <div class="row"> 
+                    <div class="col-md-4">
+                        <div class="card article-card">
+                            <div class="card-body">
+                                <h5 class="card-title"> What are Classic Flavors? </h5>
+                                <p class="card-text">Our classic flavors are made with premium ingredients for a
+                                    timeless
+                                    taste. Enjoy the perfect balance of sweetness and creaminess in every scoop!
+                                </p>
+                              
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="card article-card">
+                            <div class="card-body">
+                                <h5 class="card-title">What are our Fruit-Based Flavors?</h5>
+                                <p class="card-text">Our fruit-based flavors are made with real, fresh fruits for a
+                                    naturally sweet taste. Enjoy a refreshing and fruity twist in every scoop!
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card article-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Discover Our Premium & Unique Popsicle Flavors</h5>
+                                <p class="card-text">Cool down with our refreshing and delightful popsicle flavors! From
+                                    creamy classics to fruity surprises, every bite is a frozen treat to remember.</p>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                  
+                      
+                  
+        </section>
+        <section id="testimonials" class="container py-5 mt-3 text-center text-white">
+            <h1 class="fw-bold py-5 text-black">Customer Testimonials</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card p-3"> <img src="people.jpg" alt="cake">
+                        <p class="text-muted">"Wily's Ice Cream is the best! Their flavors are unique and absolutely
+                            delicious. Can't get enough of it!"</p>
+                        <h5 class="fw-bold">- Maria S.</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2"> <img src="peple2.jpg" alt="cake">
+                        <p class="text-muted">"The premium flavors are worth every penny. The Belgian chocolate flavor
+                            is my
+                            absolute favorite!"</p>
+                        <h5 class="fw-bold">- John D.</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2"> <img src="peple3.jpg" alt="cake">
+                        <p class="text-muted">""I always come back for more. The texture and taste are amazing!""</p>
+                        <h5 class="fw-bold">- Angelica D.</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2"> <img src="dog.jpg" alt="cake">
+                        <p class="text-muted">"Best ice cream ever! The Belgian chocolate is heavenly!"</p>
+                        <h5 class="fw-bold">- Anton D.</h5>
+                    </div>
+                </div>  
+            </div>
+        </section>
+     
+        <section class="customer-reviews py-5">
+         <div class="container text-center">
+             <h3>Customer Reviews</h3>
+             <div id="review-box" class="mt-4">
+                  <p id="review-text" class="fs-5 fst-italic"></p>
+                 <h5 id="review-name" class="fw-bold mt-3"></h5>
+            </div>
+         </div>
+        </section>
+  
+
+  <script src="script.js"></script>
+  
+        <section class="connect-us py-5">
+            <div class="container">
+                <h3 class="text-center mb-4">Connect With Us</h3>
+                
+            
+                <form class="mx-auto" style="max-width: 400px;">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+        
+                
+                <div class="social-media-icons mt-4 text-center">
+                    <a href="https://www.facebook.com/" target="_blank" class="mx-2"><ion-icon name="logo-facebook" style="font-size: 30px;"></ion-icon></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="mx-2"><ion-icon name="logo-instagram" style="font-size: 30px;"></ion-icon></a>
+                    <a href="https://x.com/twitter?lang=en" target="_blank" class="mx-2"><ion-icon name="logo-twitter" style="font-size: 30px;"></ion-icon></a>
+                    <a href="https://mail.google.com/mail/u/0/" target="_blank" class="mx-2"><ion-icon name="mail" style="font-size: 30px;"></ion-icon></a>
+                </div>
+            </div>
+        </section>
+    <hr>
+    <footer class="icecream-footer bg-dark text-white ">
+        <div class="footer text-center">
+            <div class="row gx-0">
+                <div class="col-md-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="icecream.html">Our Flavors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Our Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="classic.html">Classic Ice Cream</a></li>
+                        <li><a href="buynow.html">Specialty Flavors</a></li>
+                        <li><a href="fruitbased.html">Fruit Based Icecream</a></li>
+                        <li><a href="popsikel.html">Popsicle Icecream</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Location:</strong> Cut-cut2nd CApas Tarlac City</li>
+                        <li><strong>Contact Number:</strong> +1 (234) 567-8901</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0 mt-3">&copy; 2025 Wily's Ice Cream. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
